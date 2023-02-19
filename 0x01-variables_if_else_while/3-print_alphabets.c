@@ -2,8 +2,8 @@
 /**
  * main - main block
  * Description: print the alphabet in lower case
- * and uppercase on a new line
- * Return: 0
+ * and uppercase, follow by a new line
+ * Return: o
  */
 int main(void)
 {
@@ -24,3 +24,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
+}
