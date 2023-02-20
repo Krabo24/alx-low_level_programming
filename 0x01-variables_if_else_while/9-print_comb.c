@@ -2,8 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main combinations
- * Description: rogram that prints all possible combinations of single-digit numbers.
- * followed by a new line
+ * Description: rogram that prints all possible combinations of single-digit
+ * numbers. followed by a new line
  * Return: 0
  */
 int main(void)
@@ -16,7 +16,7 @@ int main(void)
 		if (c != 9)
 		{
 			putchar(',');
-			putchar(',');
+			putchar(' ');
 		}
 		c++;
 	}
