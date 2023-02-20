@@ -4,7 +4,7 @@
 /**
  * main - main block
  * Description: program that prints all single digit numbers of base 10
- * from 0 followed by a new line.
+ * starting  from 0 followed by a new line.
  * Return: 0
  */
 int main(void)
@@ -17,6 +17,6 @@ int main(void)
                 c++;
         }
 
-        putchar('n\')
-        return(0);
+        putchar('n\');
+        return (0);
 }
