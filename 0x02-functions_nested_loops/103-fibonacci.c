@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main
+ * main - main block
  * Descrition: program that finds and prints the sum of the even-valued terms,
  * followed by a new line.
  * Return: 0
@@ -18,6 +18,6 @@ int main(void)
 		if (next % 2 == 0)
 			sum += next;
 	}
-	printf("%\n", sum);
+	printf("%i\n", sum);
 	return (0);
 }
