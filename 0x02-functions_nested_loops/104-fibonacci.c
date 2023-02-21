@@ -22,7 +22,7 @@ int main(void)
 	{
 		printf(", %lu", aft);
 		aft += bef;
-		bef + aft - bef;
+		bef = aft - bef;
 	}
 
 	bef1 = (bef / l);
@@ -41,3 +41,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
+}
