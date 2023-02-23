@@ -3,7 +3,7 @@
 /**
  * printsquare - prints a square
  * @size: size of both width and length
- * Return: square made of "#"
+ * Return: square made of '#'
  */
 
 void print_square(int size)
@@ -19,11 +19,11 @@ void print_square(int size)
 	{
 		for (co = 1; co <= size; co++)
 		{
-			_putchar("#");
+			_putchar('#');
 
 			for (ro = 2; ro <= size; ro++)
 			{
-				_putchar("#");
+				_putchar('#');
 			}
 			_putchar('\n');
 		}
