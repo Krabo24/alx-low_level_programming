@@ -47,12 +47,12 @@ int _atoi(char *s)
 				digit = -digit;
 
 			c = c * 10 + digit;
-		
+
 			v = 1;
 
-			if (s[z + 1] < '0' || s[z + 1] > '9')
+		if (s[z + 1] < '0' || s[z + 1] > '9')
 
-				break;
+			break;
 
 			v = 0;
 
@@ -71,10 +71,10 @@ int _atoi(char *s)
 }
 
 /**
- * main - Multiplies the two numbers provided
- * @argc: The number of arguments being passed
+ * main - Multiplies two numbers given
+ * @argc: number of arguments passed
  * @argv: array of arguments being used
- * Return: 0 for Success, and 1 for Error
+ * Return: 0 for Success, 1 for Error
 */
 
 int main(int argc, char *argv[])
@@ -91,9 +91,9 @@ int main(int argc, char *argv[])
 	}
 
 	num1 = _atoi(argv[1]);
-		
+
 	num2 = _atoi(argv[2]);
-		
+
 	result = num1 * num2;
 
 	printf("%d\n", result);
