@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
- * *array_range - creates an array of integers
- * @min: minimum range of values stored
- * @max: maximum range of values stored and number of elements
- *
- * Return: pointer to the new array
+ * *array_range - array of integers created
+ * @min: the minimum range of the values to be stored
+ * @max:  the maximum number of elements and range of values stored
+ * Return: the pointer to a new array
  */
 
 int *array_range(int min, int max)
