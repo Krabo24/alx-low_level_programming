@@ -1,5 +1,8 @@
-0. Object-like Macro
-1. Pi
-2. File name
-3. Function-like macro
-4. SUM
+C - Preprocessor
+
+TASKS
+1- Object macro
+2- Pi
+3- File name
+4- Function like macro
+5- Sum
