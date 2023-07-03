@@ -1,13 +1,13 @@
-#include <unistd.h>
-
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * struct listint_s - singly linked list
+ * @n: integer
+ * @next: points to the next node
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Description: singly linked list node structure
+ * 
  */
-int _putchar(char c)
+typedef struct listint_s
 {
-	return (write(1, &c, 1));
-}
+    int n;
+    struct listint_s *next;
+} listint_t;
