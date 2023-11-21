@@ -23,4 +23,4 @@ Should print the hash tables key/value pairs in reverse order using the sorted l
 void shash_table_delete(shash_table_t *ht);
 You are allowed to have more than 5 functions in your file
 
-The end
+End of project
